@@ -1,0 +1,137 @@
+body {
+  font-family: "PT Mono", monospace;
+  margin: 0 auto;
+  padding-top: 100px;
+  background: #142e49;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background: #f5eee4;
+}
+.navbar a {
+  color: #142e49;
+
+  transition: 200ms all ease-in-out;
+}
+.navbar a:hover {
+  color: #ffc108;
+}
+.logo {
+  height: 40px;
+  width: 90px;
+}
+.about-us {
+  padding: 0 30px;
+  color: white;
+}
+.about-us h1 {
+  color: #ffc108;
+  font-size: 40px;
+  font-weight: bold;
+}
+.about-us p {
+  line-height: 2.5;
+  font-family: roboto;
+}
+.grid {
+  display: grid;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+.about-us .img-fluid {
+  border: none;
+  border-radius: 5px;
+  height: 600px;
+  width: 600px;
+}
+
+.gallery h4 {
+  display: inline;
+  color: #ffc108;
+  font-size: 18px;
+}
+.gallery a {
+  padding: 15px 20px;
+  border: #142e49 1px solid;
+  background-color: #ffc108;
+  color: #142e49;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-left: 30px;
+  transition: all 200ms ease-in-out;
+}
+.gallery a:hover {
+  color: #ffc108;
+  background: #8d6b06;
+}
+footer {
+  padding: 30px 50px;
+  margin: 0 auto;
+  background: #f5eee4;
+  border: #142e49 solid 1px;
+}
+footer .email a {
+  line-height: 1.5;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #142e49;
+  transition: all 200ms ease-in-out;
+}
+footer .email a:hover {
+  color: #ffc108;
+}
+
+footer p {
+  text-align: center;
+  color: #142e49;
+  font-weight: bold;
+  font-size: 14px;
+}
+footer span a {
+  color: #142e49;
+  transition: all 200ms ease-in-out;
+}
+footer span a:hover {
+  color: #ffc108;
+}
+.contact-links a {
+  margin-left: 30px;
+  font-size: 40px;
+  color: #142e49;
+  text-decoration: none;
+}
+.contact-links a:hover {
+  color: #ffc108;
+}
+@media (max-width: 960px) {
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+  .about-us h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .about-us p {
+    line-height: 1.5;
+  }
+  .gallery h4 {
+    display: none;
+  }
+  footer .email a {
+    font-size: 20px;
+  }
+  .contact-links a {
+    font-size: 25px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}

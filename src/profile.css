@@ -1,0 +1,131 @@
+body {
+  font-family: "PT Mono", monospace;
+  margin: 0 auto;
+  padding-top: 100px;
+  background: #142e49;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background: #f5eee4;
+}
+.navbar a {
+  color: #142e49;
+
+  transition: 200ms all ease-in-out;
+}
+.navbar a:hover {
+  color: #ffc108;
+}
+.logo {
+  height: 40px;
+  width: 90px;
+}
+.profile-card {
+  background: white;
+
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(221, 219, 219, 0.683);
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  display: none;
+}
+
+button {
+  margin: 8px;
+  padding: 10px 20px;
+  background: #ffc108;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #142e49;
+}
+
+#status {
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.update-status {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 60%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+footer {
+  padding: 30px 50px;
+  margin: 0 auto;
+  background: #f5eee4;
+  border: #142e49 solid 1px;
+}
+footer .email a {
+  line-height: 1.5;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #142e49;
+  transition: all 200ms ease-in-out;
+}
+footer .email a:hover {
+  color: #ffc108;
+}
+
+footer p {
+  text-align: center;
+  color: #142e49;
+  font-weight: bold;
+  font-size: 14px;
+}
+footer span a {
+  color: #142e49;
+  transition: all 200ms ease-in-out;
+}
+footer span a:hover {
+  color: #ffc108;
+}
+.contact-links a {
+  margin-left: 30px;
+  font-size: 40px;
+  color: #142e49;
+  text-decoration: none;
+}
+.contact-links a:hover {
+  color: #ffc108;
+}
+@media (max-width: 960px) {
+  button {
+    margin: 8px;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
+  footer .email a {
+    font-size: 20px;
+  }
+  .contact-links a {
+    font-size: 25px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,217 @@
+body {
+  font-family: "PT Mono", monospace;
+  margin: 0 auto;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background: #f5eee4;
+}
+.navbar a {
+  color: #142e49;
+
+  transition: 200ms all ease-in-out;
+}
+.navbar a:hover {
+  color: #ffc108;
+}
+.logo {
+  height: 40px;
+  width: 90px;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/school-girl.webp");
+  padding: 200px 0;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  text-align: center;
+  color: white;
+}
+
+.greet-form {
+  margin: 0 auto;
+  display: block;
+
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 600px;
+}
+
+.greet-form input,
+.greet-form button {
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.greet-form input {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #142e49;
+}
+
+.greet-form button {
+  background-color: rgba(255, 193, 8, 0.88);
+  color: #142e49;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.greet-form button:hover {
+  color: rgba(255, 193, 8, 0.88);
+  background: #142e49;
+}
+
+.about-section {
+  background: #142e49;
+  backdrop-filter: blur(6px);
+  padding: 80px 20px;
+  color: #ffffff;
+}
+
+.about-section h2 {
+  color: #ffc108;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+.teachers-section {
+  background: #f5eee4;
+  backdrop-filter: blur(6px);
+  padding: 80px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.teachers-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #142e49;
+}
+
+.teacher-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background: rgba(245, 238, 228, 0.15);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #142e49;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+.card a {
+  padding: 10px 15px;
+  background: #ffc108;
+  color: #142e49;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+footer {
+  padding: 30px 50px;
+  margin: 0 auto;
+  background: #142e49;
+  border: #142e49 solid 1px;
+}
+footer .email a {
+  line-height: 1.5;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #f5eee4;
+  transition: all 200ms ease-in-out;
+}
+footer .email a:hover {
+  color: #ffc108;
+}
+
+footer p {
+  text-align: center;
+  color: #f5eee4;
+  font-weight: bold;
+  font-size: 14px;
+}
+footer span a {
+  color: #f5eee4;
+  transition: all 200ms ease-in-out;
+}
+footer span a:hover {
+  color: #ffc108;
+}
+.contact-links a {
+  margin-left: 30px;
+  font-size: 40px;
+  color: #f5eee4;
+  text-decoration: none;
+}
+.contact-links a:hover {
+  color: #ffc108;
+}
+@media (max-width: 960px) {
+  .about-section {
+    padding: 40px 10px;
+  }
+  .about-section h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  footer .email a {
+    font-size: 20px;
+  }
+  .contact-links a {
+    font-size: 25px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}
