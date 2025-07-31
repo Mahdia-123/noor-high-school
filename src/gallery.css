@@ -1,0 +1,78 @@
+body {
+  font-family: "PT Mono", monospace;
+  margin: 0 auto;
+  padding-top: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+body.light-theme {
+  background-color: #270303;
+  color: #142e49;
+}
+
+body.dark-theme {
+  background-color: #142e49;
+  color: #f5eee4;
+}
+
+#themeToggle {
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  transition: 200ms all ease-in-out;
+}
+#themeToggle:hover {
+  color: #ffc108;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background: #f5eee4;
+}
+.navbar a {
+  color: #142e49;
+
+  transition: 200ms all ease-in-out;
+}
+.navbar a:hover {
+  color: #ffc108;
+}
+.logo {
+  height: 40px;
+  width: 90px;
+}
+.img {
+  width: 400px;
+  height: 300px;
+  border: none;
+  border-radius: 5px;
+}
+.img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.6;
+}
+.gallery-section {
+  padding: 0 20px;
+}
+.grid {
+  display: grid;
+}
+
+.grid-4-columns {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 960px) {
+  .grid-3-columns,
+  .grid-4-columns {
+    grid-template-columns: 1fr;
+  }
+}

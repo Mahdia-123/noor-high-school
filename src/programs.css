@@ -1,0 +1,143 @@
+body {
+  font-family: "PT Mono", monospace;
+  margin: 0;
+  padding-top: 100px;
+  background: #142e49;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background: #f5eee4;
+}
+.navbar a {
+  color: #142e49;
+
+  transition: 200ms all ease-in-out;
+}
+.navbar a:hover {
+  color: #ffc108;
+}
+.logo {
+  height: 40px;
+  width: 90px;
+}
+.programs {
+  color: #f5eee4;
+  padding: 20px 20px;
+}
+.programs h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffc108;
+}
+.programs p {
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.programs-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.card {
+  background: #f5eee4;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 1px 10px rgba(216, 212, 212, 0.934);
+}
+.card h3 {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #ffc108;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.card li {
+  font-size: 14px;
+}
+.card .btn {
+  border: #142e49 1px solid;
+  pad: 10px 15px;
+  color: #ffc108;
+  background: #142e49;
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card .btn:hover {
+  color: #142e49;
+  background: #ffc108;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.courseInfo {
+  display: none;
+}
+.card img {
+  height: 250px;
+  width: auto;
+}
+footer {
+  padding: 30px 50px;
+  margin: 0 auto;
+  background: #f5eee4;
+  border: #142e49 solid 1px;
+}
+footer .email a {
+  line-height: 1.5;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #142e49;
+  transition: all 200ms ease-in-out;
+}
+footer .email a:hover {
+  color: #ffc108;
+}
+
+footer p {
+  text-align: center;
+  color: #142e49;
+  font-weight: bold;
+  font-size: 14px;
+}
+footer span a {
+  color: #142e49;
+  transition: all 200ms ease-in-out;
+}
+footer span a:hover {
+  color: #ffc108;
+}
+.contact-links a {
+  margin-left: 30px;
+  font-size: 40px;
+  color: #142e49;
+  text-decoration: none;
+}
+.contact-links a:hover {
+  color: #ffc108;
+}
+@media (max-width: 960px) {
+  .programs h1 {
+    font-size: 40px;
+  }
+
+  footer .email a {
+    font-size: 20px;
+  }
+  .contact-links a {
+    font-size: 25px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}

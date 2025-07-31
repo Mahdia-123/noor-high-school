@@ -1,6 +1,7 @@
 body {
   font-family: "PT Mono", monospace;
   margin: 0 auto;
+  background: #142e49;
 }
 .container-fluid {
   margin: 0;
