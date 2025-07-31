@@ -129,7 +129,7 @@ footer span a:hover {
 }
 @media (max-width: 960px) {
   .programs h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   footer .email a {
