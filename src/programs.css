@@ -72,6 +72,7 @@ body {
   margin: 0 auto;
   font-size: 14px;
   margin-bottom: 10px;
+  width: 100%;
 }
 .card .btn:hover {
   color: #142e49;
